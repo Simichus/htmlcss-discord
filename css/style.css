@@ -62,20 +62,39 @@ body{
     text-decoration: none;
 }
 
+
 .btn-white{
     color: black;
     background-color: #fff;
+    transition: color .5s, background-color .5s;
 }
 
+.btn-white:hover{
+    color: white;
+    background-color: rgb(32, 32, 32);
+}
 .btn-black{
     color: white;
     background-color: rgb(32, 32, 32);
+    transition: color .5s, background-color .5s;
+}
+
+.btn-black:hover{
+    color: black;
+    background-color: #fff;
 }
 
 .btn-violet{
     color: white;
     background-color: rgb(87, 112, 180);
+    transition: color .5s, background-color .5s;
 }
+
+.btn-violet:hover{
+    color: rgb(87, 112, 180);
+    background-color: rgb(201, 201, 201);
+}
+
 .btn-small{
     padding: 10px 20px;
     border-radius: 20px;
@@ -165,6 +184,11 @@ main section img{
     width: 100%;
     text-align: center;
     padding-top: 110px;
+    transition: transform .5s;
+}
+
+main section img:hover{
+    transform: scale(1.2);
 }
 
 main section > *{
@@ -217,6 +241,7 @@ main section p{
     margin-top: -100px;
 }
 
+
 #sezione-4 .star-bcg{
     height: 100px;
     line-height: 100px;
@@ -234,7 +259,7 @@ main section p{
 /* Footer */
 footer{
     background-color: rgb(29, 29, 29);
-    height: 1000px;
+    height: 750px;
 }
 
 .footer-top{
@@ -293,4 +318,14 @@ footer{
 
 .footer-bottom .col.wh-50:last-child{
     text-align: right;
+}
+
+.footer-top select{
+    color: white;
+    border: none;
+    background-color: transparent;
+}
+
+.footer-top select option{
+    color: black;
 }
