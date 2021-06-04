@@ -125,6 +125,14 @@ header .top-header{
     vertical-align: middle;
 }
 
+#logo, #btm-logo{
+    transition: transform .5s;
+}
+
+#logo:hover, #btm-logo:hover{
+    transform: scale(1.2);
+}
+
 #main-nav li{
     display: inline-block;
     font-size: 14px;
@@ -310,6 +318,10 @@ footer{
 .footer-top li a{
     text-decoration: none;
     color: white;
+}
+
+.footer-top li a:hover{
+    text-decoration: underline;
 }
 
 .footer-bottom{
