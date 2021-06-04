@@ -60,6 +60,10 @@ body{
     background-color: rgb(32, 32, 32);
 }
 
+.btn-violet{
+    color: white;
+    background-color: rgb(87, 112, 180);
+}
 .btn-small{
     padding: 10px 20px;
     border-radius: 20px;
@@ -170,4 +174,36 @@ main section h2{
 main section p{
     font-size: 20px;
     font-weight: 100;
+}
+
+#sezione-4{
+    height: max-content;
+    text-align: center;
+}
+
+#sezione-4 .container{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+#sezione-4 h2{
+    margin-bottom: 30px;
+}
+
+#sezione-4 img{
+    margin-top: -100px;
+}
+
+#sezione-4 .star-bcg{
+    height: 100px;
+    line-height: 100px;
+    background-image: url(../img/stars.svg);
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+}
+
+#sezione-4 .star-bcg h3{
+    font-size: 20px;
 }
