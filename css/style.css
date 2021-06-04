@@ -188,6 +188,17 @@ main section p{
     font-weight: 100;
 }
 
+.wave-top, .wave-bottom{
+    height: 50px;
+    background-image: url(../img/wave.svg);
+    opacity: 0.04;
+    top: -50px;
+}
+
+.wave-bottom{
+    transform: rotate(180deg);
+}
+
 #sezione-4{
     height: max-content;
     text-align: center;
