@@ -30,6 +30,10 @@ body{
     width: 20%;
 }
 
+.wh-40{
+    width: 40%;
+}
+
 .wh-60{
     width: 60%;
 }
@@ -131,4 +135,39 @@ header .top-header{
 
 #spotlight .container .jumbo-cont a{
     margin: 0 15px;
+}
+
+main section{
+    height: 700px;
+}
+
+main section:nth-child(2n){
+    background-color: rgb(245, 245, 245);
+}
+
+main section img{
+    width: 100%;
+    text-align: center;
+    padding-top: 110px;
+}
+
+main section > *{
+    position: relative;
+    height: 100%;
+}
+
+main section .col.wh-40{
+    padding: 0 30px;
+    padding-top: 155px;
+}
+
+main section h2{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+main section p{
+    font-size: 20px;
+    font-weight: 100;
 }
