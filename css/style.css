@@ -44,7 +44,6 @@ body{
 
 .btn{
     text-decoration: none;
-    border-radius: 20px;
 }
 
 .btn-white{
@@ -52,9 +51,22 @@ body{
     background-color: #fff;
 }
 
+.btn-black{
+    color: white;
+    background-color: rgb(32, 32, 32);
+}
+
 .btn-small{
     padding: 10px 20px;
+    border-radius: 20px;
     font-size: 14px;
+}
+
+.btn-big{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 20px 30px;
+    border-radius: 40px;
 }
 
 
@@ -62,7 +74,7 @@ body{
 
 header{
     color: white;
-    background-color: rgb(37, 59, 255);
+    background-color: #255ee9;
 }
 
 header .top-header{
@@ -88,4 +100,35 @@ header .top-header{
 
 #main-nav li a:hover{
     text-decoration: underline;
+}
+
+#spotlight{
+    color: white;
+    text-align: center;
+    background-image: url(../img/jumbo.png);
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#spotlight .container .jumbo-cont{
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#spotlight .container .jumbo-cont h1{
+    font-size: 50px;
+    line-height: 100px;
+}
+
+#spotlight .container .jumbo-cont p{
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+#spotlight .container .jumbo-cont a{
+    margin: 0 15px;
 }
