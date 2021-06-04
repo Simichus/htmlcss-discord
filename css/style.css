@@ -30,12 +30,24 @@ body{
     width: 20%;
 }
 
+.wh-30{
+    width: 30%;
+}
+
 .wh-40{
     width: 40%;
 }
 
+.wh-50{
+    width: 50%;
+}
+
 .wh-60{
     width: 60%;
+}
+
+.wh-70d4{
+    width: calc(70% / 4);
 }
 
 .text-center{
@@ -183,7 +195,7 @@ main section p{
 
 #sezione-4 .container{
     padding-top: 100px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 
 #sezione-4 h2{
@@ -206,4 +218,68 @@ main section p{
 
 #sezione-4 .star-bcg h3{
     font-size: 20px;
+}
+
+/* Footer */
+footer{
+    background-color: rgb(29, 29, 29);
+    height: 1000px;
+}
+
+.footer-top{
+    padding-top: 60px;
+    border-bottom: 1px solid rgb(87, 112, 180);
+}
+
+.footer-top h2, .footer-top h3{
+    color: rgb(87, 112, 180);
+}
+
+.footer-top h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.footer-top .language{
+    color: white;
+    margin: 20px auto;
+    line-height: 30px;
+    height: 30px;
+}
+
+.footer-top .language img{
+    vertical-align: middle;
+    height: 100%;
+}
+
+.footer-top .follow-us a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 0 15px;
+}
+
+.footer-top h3{
+    font-weight: bold;
+}
+
+.footer-top .col.wh-70d4{
+    line-height: 50px;
+}
+
+.footer-top ul{
+    list-style-type: none;
+}
+
+.footer-top li a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-bottom{
+    margin: 30px auto;
+}
+
+.footer-bottom .col.wh-50:last-child{
+    text-align: right;
 }
